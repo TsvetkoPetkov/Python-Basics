@@ -12,6 +12,7 @@ for i in range(n):
     sum_numbers += number
 
 diff = sum_numbers - max_number
+
 if max_number == diff:
     print("Yes")
     print(f"Sum = {max_number}")
