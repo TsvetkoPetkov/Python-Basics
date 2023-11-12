@@ -3,6 +3,7 @@ width = int(input())
 
 total_pieces = length * width
 is_stop = False
+
 while total_pieces > 0:
     curr_pieces = input()
 
